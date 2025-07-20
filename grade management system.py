@@ -30,6 +30,7 @@ while True:
             print("No student records are available.")
         else:
             print("\nName\tMarks\tGrade")
+            print("-"*25)
             for name, marks in students.items():
                 grade = calculate_grade(marks)
                 print(f"{name}\t{marks}\t{grade}")
